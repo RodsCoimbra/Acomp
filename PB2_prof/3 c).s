@@ -1,7 +1,7 @@
 #3c)
 
 	.data
-a:	.word 3
+a: .word 3
 b: .word 15
 c: .word 4
 d: .word 0
