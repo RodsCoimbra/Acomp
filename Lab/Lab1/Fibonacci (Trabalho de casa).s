@@ -19,9 +19,9 @@ num: .word 0
 loop:
 	addi x12, x12, 4	##passar para o proximo endereco de memoria
 	sw x11, 0(x12)		#guardar
-	or x10, x11, x0		# z = y
+	mv x10, x11		# z = y
 	add x11, x11, x14	#y = y + x
-	or x14, x10, x0		# x = z
+	mv x14, x10		# x = z
 	addi x13, x13, 1	# i++	
 	blt x13, x9, loop	#i < 10
  
