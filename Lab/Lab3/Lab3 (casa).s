@@ -105,6 +105,7 @@ MulLoop:
 
 OutMul:
 	sw s3, 16(sp)
+	
 	lw s3, 0(sp)
 	lw s2, 4(sp)
 	lw s1, 8(sp)
